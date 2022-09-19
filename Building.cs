@@ -10,7 +10,7 @@ namespace Planner
         public int Stories { get; set; }
         public double Width { get; set; }
         public double Depth { get; set; }
-        public double Volume { get => Width * Depth; }
+        public double Volume { get => (Width * Depth) * Stories; }
 
         public Building(string address)
         {
