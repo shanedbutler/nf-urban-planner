@@ -4,8 +4,8 @@ namespace Planner
     {
         private string _designer = "Shane";
         private DateTime _dateConstructed;
-        private string? _address;
-        private string? _owner;
+        private string _address;
+        private string _owner;
 
         public int Stories { get; set; }
         public double Width { get; set; }
